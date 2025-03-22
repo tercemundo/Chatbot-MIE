@@ -9,9 +9,9 @@ st.title("Mi primera aplicación con Streamlit")
 nombre = st.text_input("¿Cuál es tu nombre?")
 #Creamos boton con funcionalidad
 if st.button("Saludar") :
-    st.write(f"¡Hola {nombre}! Gracias por venir a Talento Tech")
+    st.write(f"¡Hola {nombre}! Gracias por venir a TercerMundo!!!")
 
-MODELO = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768', 'deepseek-r1:14b']
+MODELO = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768', 'deepseek-coder-v2-14b']
 
 #Nos conecta a la API, crear un usuario
 def crear_usuario_groq():
